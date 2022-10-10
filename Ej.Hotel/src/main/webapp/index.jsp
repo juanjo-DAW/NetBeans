@@ -1,6 +1,5 @@
 <%@page import="java.util.Random"%>
 <%@page import="java.util.ArrayList"%>
-<%@page import="java.util.ArrayList"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <%!
 private static final int NUM_PLANTES = 6;
