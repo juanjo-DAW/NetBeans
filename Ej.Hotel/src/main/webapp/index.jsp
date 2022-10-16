@@ -4,10 +4,11 @@
 <%!
 private static final int NUM_PLANTES = 6;
 private static final int NUM_HAB = 11;
-private static final int MAX_CLIENTS = 6;
+private static final int MAX_CLIENTS = 5;
 private boolean habBuides(int[][] hotel) {
 boolean trobat = false;
 return trobat;
+// He puesto las constantes con un valor mas del determinada para a la hora de printar no salga habitacion 0 o planta 0
 }
 
 private int[] ocupadas(int[][] hotel){
