@@ -32,7 +32,16 @@ return ocupades;
 
 private boolean Vacias(int[][] hotel) {
 boolean trobat = false;
-
+    int i=0,j=0;
+        while(trobat == false && i < NUM_PLANTES) {
+            while(trobat == false && i < NUM_HAB) {
+                if(hotel[i][j]== 0){
+                    trobat=true;
+                    }
+                    j++;
+                }
+                i++;
+            }
 return trobat;
 }
 
